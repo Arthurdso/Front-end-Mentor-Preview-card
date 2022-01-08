@@ -3,27 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
-
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
+  <main class="main-container">
+    <section class="card-container">
+        <div class="container-image">
+          <img src="images/image-equilibrium.jpg" alt="image-equilibrium" class="main-image">
+        </div>
 
-  <main class="container">
-    <img src="images/image-equilibrium.jpg" alt="imagem equilibirum" class="container__img">
-    <h1 class="container__titulo">Equilibrium #3429</h1>
-    <p class="container__paragrafo">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="container-titulo">
+          <h1>Equilibrium #3429</h1>
+          <p class="container-paragrafo">Our Equilibrium collection promotes balance and calm</p>
+        </div>
+
+        <div class="container-detalhes">
+          <div class="preco"><img src="icon-ethereum.svg" alt="">
+            <p>0.041ETH</p>
+          </div>
+          <div class="tempo"><img src="icon-clock.svg" alt="">
+            <p>3 days left</p>
+          </div>
+      </div>
+      <hr class="container-linha">
+
+      <div class="autor">
+        <img src="images/image-avatar.png" alt="">
+        <p>Creation of Arthur Oliveira</p>
+      </div>
+    </section>
   </main>
-  <div class="informacoes">
-    <p class="informacoes__preco">0.041 ETH</p>
-    <p class="informacoes__dias">3 days left</p>
-  </div>
-  <footer class="rodape">
-    <img src="images/image-avatar.png" alt="imagem avatar" class="rodape__img">
-    <p class="rodape__criacao">Creation of Arthur Oliveira</p>
-  </footer>
 </body>
 </html>
