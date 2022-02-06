@@ -10,17 +10,7 @@ body {
 
 .main-container {
     width: 375px;
-<<<<<<< HEAD
-    margin: 5px auto;
-=======
-    margin: auto auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of f9c43a1 (adicionando Box Shadow)
-=======
->>>>>>> parent of f9c43a1 (adicionando Box Shadow)
-=======
->>>>>>> parent of f9c43a1 (adicionando Box Shadow)
+    margin: 0 auto;
 }
 
 .width {
