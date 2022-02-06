@@ -11,6 +11,7 @@ body {
 .main-container {
     width: 375px;
     margin: auto auto;
+    box-shadow: 2em 2em 3em rgba(0, 0, 0, 0.5)
 }
 
 .width {
