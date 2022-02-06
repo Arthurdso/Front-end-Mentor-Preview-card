@@ -66,13 +66,15 @@ body {
     margin: 40% 40%;
 }
 
-
-
 .title {
     color: hsl(0, 0%, 100%);
     font-size: 22px;
     font-weight: 600;
     margin:0.9rem 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .title:hover{
@@ -119,12 +121,12 @@ body {
 
 }
 
-.autor__p span {
+.autor__p .span {
     font-weight: 400;
     color: white;
 }
 
-.autor__p span:hover {
+.autor__p .span:hover {
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
