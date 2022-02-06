@@ -1,9 +1,141 @@
-body{
-    box-sizing: border-box;
+body {
     margin: 0;
     padding: 0;
-    font-family: "Outfit", sans-serif;
-    background-color: hsl(217, 54%, 11%);
+    box-sizing: border-box;
     font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
 }
 
+.main-container {
+    width: 375px;
+    margin: auto auto;
+}
+
+.width {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.card-image {
+    position: relative;
+}
+.card-container {
+    background-color: hsl(216, 50%, 16%);
+    width: 90%;
+    margin: 15px auto;
+    padding: 20px 20px;
+    border-radius: 1rem;
+}
+.main-image{
+    width: 100%;
+    border-radius: 1rem;
+    display: block;
+}
+
+.main-image:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: hsl(178, 100%, 50%);
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.overlay:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.overlay-image{
+    margin: 40% 40%;
+}
+
+
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 600;
+    margin:0.9rem 0;
+}
+
+.title:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+
+.container-p {
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+
+.container-detalhes {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.valor {
+    color:hsl(178, 100%, 50%);
+}
+
+.time {
+    color:hsl(215, 51%, 70%);
+
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+}
+
+.autor__img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.autor__p {
+    color:hsl(215, 51%, 70%);
+
+}
+
+.autor__p span {
+    font-weight: 400;
+    color: white;
+}
+
+.autor__p span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.2;
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .main-container {
+        width: 375px;
+        margin: 5vh auto;
+    }
+}
